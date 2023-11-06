@@ -1,0 +1,19 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("heart-disease-hub.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+iframe {
+  width: 100%;
+  height: 430px; /* Set the desired height for the iframe */
+  max-width: 400px; /* Limit the maximum width of the iframe */
+}
